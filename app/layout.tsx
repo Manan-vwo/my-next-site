@@ -27,12 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="preconnect" href="https://dev.visualwebsiteoptimizer.com" />
-        <script
-          type="text/javascript"
-          id="vwoCode"
-          dangerouslySetInnerHTML={{ __html: smartCode }}
-        />
+        <VWOScript accountId="1120758" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
