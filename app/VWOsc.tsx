@@ -15,6 +15,7 @@
  */
 
 import React from "react";
+import Script from "next/script";
 
 interface VWOScriptProps {
   accountId: string;
@@ -51,11 +52,12 @@ export const VWOScript: React.FC<VWOScriptProps> = ({
 
     if (scriptType === "sync") {
       return (
-        <script
+        <Script
           {...scriptAttributes}
           referrerPolicy="no-referrer-when-downgrade"
           id="vwoCode"
           src={`https://dev.visualwebsiteoptimizer.com/lib/${accountId}.js`}
+          strategy="beforeInteractive"
         />
       );
     }
@@ -67,10 +69,11 @@ export const VWOScript: React.FC<VWOScriptProps> = ({
           href="https://dev.visualwebsiteoptimizer.com"
           {...linkAttributes}
         />
-        <script
+        <Script
           {...scriptAttributes}
           type="text/javascript"
           id="vwoCode"
+          strategy="afterInteractive"
           dangerouslySetInnerHTML={{ __html: smartCode }}
         />
       </>
