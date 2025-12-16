@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-// import { VWOScript } from "vwo-smartcode-nextjs";
-import { VWOScript } from "./VWOsc";
+import { VWOScript } from "vwo-smartcode-nextjs";
+// import { VWOScript } from "./VWOsc";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
