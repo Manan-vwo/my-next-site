@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { VWOScript } from "vwo-smartcode-nextjs";
+// import { VWOScript } from "vwo-smartcode-nextjs";
+import { VWOScript } from "./VWOsc";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -27,6 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        {/* <VWOScript accountId="1120758" type="ASYNC" /> */}
         <VWOScript accountId="1120758" type="ASYNC" />
       </head>
       <body
