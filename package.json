@@ -12,7 +12,7 @@
     "next": "^15.5.9",
     "react": "19.1.0",
     "react-dom": "19.1.0",
-    "vwo-smartcode-nextjs": "^1.4.1"
+    "vwo-smartcode-nextjs": "^1.4.2"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
