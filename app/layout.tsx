@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <VWOScript accountId="1213244" type="SYNC" />
+        <VWOScript accountId="1120758" type="SYNC" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
