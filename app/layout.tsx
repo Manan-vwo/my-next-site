@@ -28,7 +28,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        {/* <VWOScript accountId="1120758" type="ASYNC" /> */}
         <VWOScript accountId="1120758" type="ASYNC" />
       </head>
       <body
