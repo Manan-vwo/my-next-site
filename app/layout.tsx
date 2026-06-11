@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { WingifyScript } from "wingify-smartcode-nextjs";
+import { VWOScript } from "vwo-smartcode-nextjs";
 // import { VWOScript } from "./VWOsc";
 
 const geistSans = Geist({
@@ -28,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <WingifyScript accountId="1241667" type="ASYNC" version={3.0} />
+        <VWOScript accountId="1120758" type="ASYNC" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
