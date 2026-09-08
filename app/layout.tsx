@@ -29,7 +29,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <WingifyScript accountId="1276768" type="SYNC" />
+        <WingifyScript accountId="1276852" type="SYNC" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
