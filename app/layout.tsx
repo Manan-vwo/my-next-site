@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { WingifyScript } from "wingify-smartcode-nextjs";
-// import "./globals.css";
+import "./globals.css";
 // import { VWOScript } from "vwo-smartcode-nextjs";
 // import { VWOScript } from "./VWOsc";
 
