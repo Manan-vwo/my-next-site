@@ -31,7 +31,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         {/* <WingifyScript accountId="1276852" type="SYNC" /> */}
-        <VWOScript accountId="1120758" type="SYNC" version={2.2} />
+        <VWOScript accountId="1120758" type="ASYNC" version={2.2} />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
