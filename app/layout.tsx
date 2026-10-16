@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import { WingifyScript } from "wingify-smartcode-nextjs";
 import "./globals.css";
+import { VWOScript } from "vwo-smartcode-nextjs";
 // import { VWOScript } from "vwo-smartcode-nextjs";
 // import { VWOScript } from "./VWOsc";
 
@@ -29,7 +30,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <WingifyScript accountId="1276852" type="SYNC" />
+        {/* <WingifyScript accountId="1276852" type="SYNC" /> */}
+        <VWOScript accountId="1120758" type="SYNC" version={2.2} />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
